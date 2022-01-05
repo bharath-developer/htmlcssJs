@@ -1,0 +1,13 @@
+th,
+td,
+tbody,
+thead,
+td,
+table {
+  border: 1px solid black;
+}
+button {
+  width: 100px;
+  height: 60px;
+  /* padding: 15px; */
+}

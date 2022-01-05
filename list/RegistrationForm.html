@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <table cellspacing="5px">
+      <thead>
+        <th colspan="2" style="text-align: center">User Form</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Enter Name</td>
+          <td><input type="text" name="name" id="name" /></td>
+        </tr>
+        <tr>
+          <td>Enter Password</td>
+          <td><input type="password" name="password" id="password" /></td>
+        </tr>
+        <tr>
+          <td>Enter Address</td>
+          <td>
+            <textarea name="address" id="address" rows="3"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Select Game</td>
+          <td>
+            <input type="checkbox" name="hockey" id="hockey" />Hockey<br />
+            <input
+              type="checkbox"
+              name="football"
+              id="football"
+            />Football<br />
+            <input
+              type="checkbox"
+              name="badminton"
+              id="badminton"
+            />Badminton<br />
+            <input type="checkbox" name="cricket" id="cricket" />Cricket<br />
+            <input
+              type="checkbox"
+              name="volleyball"
+              id="volleyball"
+            />Volleyball<br />
+          </td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Select ur age</td>
+          <td>
+            <input type="radio" name="male" id="gender" />Male
+            <input type="radio" name="female" id="gender" />Female
+          </td>
+        </tr>
+        <tr>
+          <td>Select Your Age</td>
+          <td>
+            <select name="age" id="age">
+              <option value="select" selected>select</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="file" name="upload" id="upload" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button>Click Me</button>
+            <button>Reset</button>
+            <button>Submit Form</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+  <script src="./app.js"></script>
+</html>
