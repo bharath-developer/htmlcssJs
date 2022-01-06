@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event selection</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h3>Event Selection</h3>
+    select an event:
+    <select name="event" id="event" onchange="getDetails()">
+      <option value="none" selected disabled hidden>- select -</option>
+      <option value="wedding">Weddings</option>
+      <option value="corporate">Corporate Events</option>
+    </select>
+    <div style="display: none" id="result">
+      <h3 id="heading"></h3>
+      No of Days: <input type="number" name="days" id="noOfDays" /><br /><br />
+      Start Date (dd/mm/yyyy):
+      <input type="date" name="date" id="startDate" /><br /><br />
+      Organizer Name:
+      <input type="text" name="organizerName" id="organizerName" /><br /><br />
+      Mobile Number:
+      <input type="number" name="number" id="mobileNumber" /><br /><br />
+      <button id="add" onclick="addEvents()">Add</button>
+      <button id="display" onclick="displayEvents()">Display</button
+      ><br /><br />
+      <div id="successMessage"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
