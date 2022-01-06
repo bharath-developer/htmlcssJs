@@ -4,27 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Css Module</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>External styling by id</title>
     <style>
-      h2 {
-        font-size: 18px;
+      #pink {
+        color: #f835c0;
       }
-      h3 {
-        font-size: 16px;
+      #red {
+        color: #ff0000;
       }
-      h5 {
-        font-size: 14px;
+      #green {
+        color: #15d365;
       }
-      p {
-        font-size: 10px;
+      #violet {
+        color: #9f41f5;
       }
     </style>
   </head>
   <body>
-    <h1>Pink Frag Event Organizer</h1>
+    <h1 id="pink">Pink Frag Event Organizer</h1>
     <hr />
-    <h2>Service Description</h2>
+    <h2 id="red">Service Description</h2>
     <p>
       We are indulged in offering a Promotional Event Management. These services
       are provided by our team of professionals as per the requirement of the
@@ -33,12 +32,12 @@
       these services in a definite time frame and at affordable rates.
     </p>
     <hr />
-    <h2>Features</h2>
-    <h5>Customized Service</h5>
-    <h5>On-Time Completion</h5>
-    <h5>Execution in tandem with clients demand</h5>
+    <h2 id="red">Features</h2>
+    <h5 id="violet">Customized Service</h5>
+    <h5 id="violet">On-Time Completion</h5>
+    <h5 id="violet">Execution in tandem with clients demand</h5>
     <hr />
-    <h2>About Us</h2>
+    <h2 id="red">About Us</h2>
     <p>
       Pink Frag Event is a reputed organization, which has come into being in
       2009, as a Sole Proprietorship Firm, with a sole aim of achieving the
@@ -54,15 +53,16 @@
       any compromise in terms of the excellence of products.
     </p>
     <hr />
-    <h2>Contact Us</h2>
-    <h3>Address</h3>
-    <p>14/509A,Sterlin Street,NUmgambakam Chennai - 600034.</p>
-    <h3>Mobile</h3>
-    <p>Manager-9566451842</p>
-    <h3>Landline</h3>
-    <p>0422-4651234</p>
-    <h3>Email</h3>
-    <p>pinkfragevent123@gmail.com pinkfragOfficial@gmail.com</p>
+    <div>
+      <h2 id="red">Contact Us</h2>
+      <h3 id="green">Address</h3>
+      <p>14/509A,Sterlin Street,NUmgambakam Chennai - 600034.</p>
+      <h3 id="green">Mobile</h3>
+      <p>Manager-9566451842</p>
+      <h3 id="green">Landline</h3>
+      <p>0422-4651234</p>
+      <h3 id="green">Email</h3>
+      <p>pinkfragevent123@gmail.com pinkfragOfficial@gmail.com</p>
+    </div>
   </body>
-  <script src="./app.js"></script>
 </html>
